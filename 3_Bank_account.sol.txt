@@ -1,6 +1,4 @@
 pragma solidity >= 0.7.0;
-// Write  a  smart  contract  on  a  test  network,  for  Bank  account  of  a  customer  for
-  // following operations: Deposit money | Withdraw Money | Show balance
 contract Bank{
     mapping(address => uint) public user_account;
     mapping(address => bool) public user_exist;
